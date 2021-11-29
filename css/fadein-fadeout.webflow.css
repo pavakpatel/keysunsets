@@ -163,6 +163,7 @@ body {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  opacity: 0;
 }
 
 .sticky-wrapper {
@@ -195,6 +196,10 @@ body {
   font-weight: 300;
 }
 
+.content-text.white {
+  color: #fff;
+}
+
 .footer-container {
   position: relative;
   left: 0%;
@@ -221,10 +226,9 @@ body {
 }
 
 .lottie-animation {
-  position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   left: 0%;
-  top: 0%;
+  top: auto;
   right: 0%;
   bottom: 0%;
   z-index: -1;
