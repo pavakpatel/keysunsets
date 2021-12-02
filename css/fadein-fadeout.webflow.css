@@ -97,7 +97,7 @@ body {
   color: #fff;
 }
 
-.content-text-container {
+.list-container {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -123,7 +123,7 @@ body {
   align-items: flex-end;
 }
 
-.content-text-wrapper {
+.list-wrapper {
   position: absolute;
   left: auto;
   top: 0%;
@@ -133,7 +133,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 40px;
+  padding-right: 60px;
+  padding-left: 100px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -152,9 +153,9 @@ body {
   text-align: left;
 }
 
-.content-text-wrapper._1 {
+.list-wrapper._1 {
   width: 50vw;
-  padding-right: 102px;
+  padding-left: 100px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -165,23 +166,23 @@ body {
   flex: 0 auto;
 }
 
-.content-text-wrapper._2 {
+.list-wrapper._2 {
   width: 50vw;
 }
 
-.content-text-wrapper._3 {
+.list-wrapper._3 {
   width: 50vw;
 }
 
-.content-text-wrapper._4 {
+.list-wrapper._4 {
   width: 50vw;
 }
 
-.content-text-wrapper._5 {
+.list-wrapper._5 {
   width: 50vw;
 }
 
-.content-text-wrapper._6 {
+.list-wrapper._6 {
   left: auto;
   top: 0%;
   right: 0%;
@@ -189,17 +190,17 @@ body {
   width: 50vw;
 }
 
-.content-text-wrapper._7 {
+.list-wrapper._7 {
   left: auto;
   top: 0%;
   right: 0%;
   bottom: 0%;
   width: 50vw;
-  padding-right: 0px;
-  padding-left: 40px;
+  padding-right: 60px;
+  padding-left: 100px;
 }
 
-.content-text-wrapper._0 {
+.list-wrapper._0 {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -307,9 +308,9 @@ body {
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   font-size: 0vw;
-  mix-blend-mode: color;
-  -o-object-fit: fill;
-  object-fit: fill;
+  mix-blend-mode: normal;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .dust {
@@ -544,6 +545,8 @@ body {
 }
 
 .list {
+  width: 30vw;
+  padding-right: 0px;
   color: #000;
 }
 
@@ -622,17 +625,34 @@ body {
 }
 
 .paragraph.end {
+  position: absolute;
+  display: block;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #fff;
+  font-size: 22px;
+  line-height: 40px;
   font-weight: 300;
   text-align: left;
 }
 
 .paragraph.end._2 {
-  top: 95%;
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   text-align: center;
 }
 
-.para-container-begin {
+.beginning-para-container {
   color: #fffefe;
 }
 
@@ -673,6 +693,19 @@ body {
   font-family: Lato, sans-serif;
   color: #000;
   font-weight: 900;
+}
+
+.end-para-container {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 50px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .arrow-down {
@@ -717,8 +750,8 @@ body {
 
 .cc-scroll {
   display: inline-block;
-  opacity: 0.7;
-  color: #bcb090;
+  opacity: 1;
+  color: #00558c;
 }
 
 .line-ver {
@@ -736,8 +769,8 @@ body {
 
 .line-ver.first {
   height: 100px;
-  background-color: #bcb090;
-  opacity: 0.7;
+  background-color: #00558c;
+  opacity: 1;
   -webkit-transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
@@ -776,12 +809,13 @@ body {
   align-items: center;
 }
 
-.line-container-copy {
+.scroll-line-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 40%;
+  padding-top: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -791,7 +825,7 @@ body {
   transform-origin: 50% 0%;
 }
 
-.container-scrolling {
+.scroll-here-box {
   position: relative;
   left: 0%;
   top: auto;
@@ -805,6 +839,11 @@ body {
   margin-top: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -872,24 +911,75 @@ body {
   margin-top: -60vh;
 }
 
-.end-text-span {
+.end-para-span {
+  position: static;
   font-weight: 900;
   text-align: left;
 }
 
+.image-2 {
+  max-width: 150%;
+}
+
+.image-3 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: -220px;
+  padding-bottom: 0px;
+}
+
+.end-para {
+  position: static;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.the-end {
+  position: absolute;
+  font-weight: 900;
+  text-align: left;
+}
+
+.fdd-logo-container {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  display: block;
+  width: auto;
+  height: auto;
+  margin-right: -17px;
+  padding-right: 0px;
+  padding-left: 0px;
+  opacity: 1;
+  mix-blend-mode: color-burn;
+}
+
+.fdd-favicon {
+  position: static;
+  width: 50px;
+  mix-blend-mode: normal;
+}
+
 @media screen and (max-width: 991px) {
-  .content-text-container {
+  .list-container {
     left: auto;
     top: 0%;
     right: 0%;
     bottom: 0%;
   }
 
-  .content-text-wrapper._1 {
+  .list-wrapper._1 {
     width: auto;
   }
 
-  .content-text-wrapper._2 {
+  .list-wrapper._2 {
     width: auto;
   }
 
@@ -970,7 +1060,7 @@ body {
     align-items: flex-end;
   }
 
-  .container-scrolling {
+  .scroll-here-box {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -999,7 +1089,7 @@ body {
     align-items: baseline;
   }
 
-  .content-text-container {
+  .list-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1011,7 +1101,7 @@ body {
     justify-content: space-between;
   }
 
-  .content-text-wrapper._7 {
+  .list-wrapper._7 {
     display: -ms-grid;
     display: grid;
     justify-items: center;
@@ -1054,7 +1144,7 @@ body {
     font-size: 16px;
   }
 
-  .para-container-begin {
+  .beginning-para-container {
     font-size: 10px;
     line-height: 10px;
   }
