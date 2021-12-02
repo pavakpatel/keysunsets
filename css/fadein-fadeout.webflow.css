@@ -954,9 +954,8 @@ body {
   display: block;
   width: auto;
   height: auto;
-  margin-right: -17px;
-  padding-right: 0px;
-  padding-left: 0px;
+  margin-right: -46px;
+  padding: 0px;
   opacity: 1;
   mix-blend-mode: color-burn;
 }
