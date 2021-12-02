@@ -542,6 +542,7 @@ body {
   padding-left: 0px;
   color: #fff;
   font-size: 25px;
+  font-weight: 400;
 }
 
 .list {
@@ -617,7 +618,7 @@ body {
   font-size: 20px;
   line-height: 35px;
   font-weight: 400;
-  text-align: left;
+  text-align: justify;
 }
 
 .paragraph.transperent {
@@ -640,7 +641,7 @@ body {
   font-size: 22px;
   line-height: 40px;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
 }
 
 .paragraph.end._2 {
