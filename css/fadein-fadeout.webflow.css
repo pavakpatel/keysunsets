@@ -31,6 +31,11 @@ body {
 
 .content-section {
   position: absolute;
+  left: 0%;
+  top: 0px;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
   width: 100vw;
   height: 3000vh;
 }
@@ -106,7 +111,7 @@ body {
   z-index: 21;
   display: inline-block;
   overflow: visible;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -133,8 +138,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 60px;
-  padding-left: 100px;
+  padding-right: 5vw;
+  padding-left: 5vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -155,7 +160,8 @@ body {
 
 .list-wrapper._1 {
   width: 50vw;
-  padding-left: 100px;
+  padding-right: 5vw;
+  padding-left: 5vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -164,6 +170,7 @@ body {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  font-size: 30%;
 }
 
 .list-wrapper._2 {
@@ -196,8 +203,8 @@ body {
   right: 0%;
   bottom: 0%;
   width: 50vw;
-  padding-right: 60px;
-  padding-left: 100px;
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
 
 .list-wrapper._0 {
@@ -277,13 +284,14 @@ body {
 
 .lottie-animation {
   position: absolute;
-  left: 0vw;
+  left: 0%;
   top: auto;
   right: 0%;
-  bottom: -5%;
+  bottom: -172px;
   z-index: -1;
   display: block;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -329,6 +337,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
+  opacity: 0.5;
 }
 
 .div-block {
@@ -373,7 +382,7 @@ body {
 }
 
 .body {
-  background-color: #fff;
+  background-color: #b6a269;
 }
 
 .div-block-2 {
@@ -541,7 +550,8 @@ body {
   padding-bottom: 17px;
   padding-left: 0px;
   color: #fff;
-  font-size: 25px;
+  font-size: 1.2vw;
+  line-height: 30px;
   font-weight: 400;
 }
 
@@ -615,10 +625,12 @@ body {
   width: 50vw;
   font-family: Lato, sans-serif;
   color: #000;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 1.1vw;
+  line-height: 40px;
   font-weight: 400;
   text-align: justify;
+  background-clip: padding-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .paragraph.transperent {
@@ -638,7 +650,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #fff;
-  font-size: 22px;
+  font-size: 1vw;
   line-height: 40px;
   font-weight: 300;
   text-align: justify;
@@ -646,14 +658,19 @@ body {
 
 .paragraph.end._2 {
   position: absolute;
-  left: 0%;
+  left: 24%;
   top: auto;
   right: 0%;
-  bottom: 0%;
+  bottom: 6%;
   text-align: center;
 }
 
 .beginning-para-container {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 58%;
   color: #fffefe;
 }
 
@@ -821,15 +838,19 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   -webkit-transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
 }
 
 .scroll-here-box {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   left: 0%;
-  top: auto;
+  top: 317px;
   right: 0%;
   bottom: 0%;
   z-index: 1;
@@ -837,7 +858,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
@@ -863,7 +884,7 @@ body {
   left: 0%;
   top: 0%;
   right: 0%;
-  bottom: 0%;
+  bottom: -6%;
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -932,12 +953,29 @@ body {
   padding-bottom: 0px;
 }
 
+.lottie-container {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  min-height: auto;
+  min-width: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .end-para {
   position: static;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  font-size: 1vw;
 }
 
 .the-end {
@@ -955,8 +993,11 @@ body {
   display: block;
   width: auto;
   height: auto;
-  margin-right: -46px;
   padding: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   opacity: 1;
   mix-blend-mode: color-burn;
 }
@@ -965,6 +1006,14 @@ body {
   position: static;
   width: 50px;
   mix-blend-mode: normal;
+}
+
+.just-desert {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 5%;
 }
 
 @media screen and (max-width: 991px) {
