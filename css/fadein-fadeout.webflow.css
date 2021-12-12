@@ -299,7 +299,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 64%;
+  bottom: 61%;
   z-index: -1;
   display: block;
   width: 150vh;
@@ -340,7 +340,7 @@ body {
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: 68%;
+  bottom: 0%;
   display: inline-block;
   overflow: visible;
   width: 300vw;
@@ -1052,7 +1052,7 @@ body {
 .right-column {
   position: relative;
   left: auto;
-  top: 60%;
+  top: 62%;
   right: 0%;
   bottom: 0%;
   display: -webkit-box;
