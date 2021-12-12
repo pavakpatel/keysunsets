@@ -37,7 +37,7 @@ body {
   bottom: 0%;
   display: inline-block;
   width: 100vw;
-  height: 3000vh;
+  height: 4000vh;
 }
 
 .content-background {
@@ -78,7 +78,10 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: 1px solid #000;
   background-color: transparent;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .end-section {
@@ -131,30 +134,38 @@ body {
 .list-wrapper {
   position: absolute;
   left: auto;
-  top: 0%;
-  right: 0%;
+  top: -150%;
+  right: 15%;
   bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 5vw;
-  padding-left: 5vw;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  width: 30vw;
+  height: 40vh;
+  min-height: auto;
+  min-width: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: Lato, sans-serif;
   color: #fff;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -220,7 +231,7 @@ body {
 }
 
 .sticky-wrapper {
-  position: relative;
+  position: fixed;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -284,13 +295,15 @@ body {
 
 .lottie-animation {
   position: absolute;
-  left: 0%;
+  left: auto;
   top: auto;
-  right: 0%;
-  bottom: -172px;
+  right: auto;
+  bottom: 64%;
   z-index: -1;
   display: block;
-  min-height: 100vh;
+  width: 150vh;
+  max-width: none;
+  min-height: auto;
   min-width: 100vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -306,10 +319,10 @@ body {
   -webkit-order: 1;
   -ms-flex-order: 1;
   order: 1;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -317,8 +330,8 @@ body {
   grid-template-rows: auto auto;
   font-size: 0vw;
   mix-blend-mode: normal;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .dust {
@@ -326,7 +339,7 @@ body {
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: 0%;
+  bottom: 82%;
   display: inline-block;
   overflow: visible;
   width: 300vw;
@@ -337,7 +350,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.5;
+  opacity: 0.22;
 }
 
 .div-block {
@@ -382,7 +395,7 @@ body {
 }
 
 .body {
-  background-color: #b6a269;
+  background-color: #fff;
 }
 
 .div-block-2 {
@@ -463,7 +476,12 @@ body {
   background-color: #000;
 }
 
-.loading {
+.loading-text {
+  position: static;
+  left: 0%;
+  top: 1%;
+  right: 0%;
+  bottom: 0%;
   color: #fff;
 }
 
@@ -473,13 +491,15 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 1;
+  z-index: -5;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  background-image: url('../images/1ss.png');
-  background-position: 50% 106%;
-  background-size: cover;
-  opacity: 0;
+  background-image: url('../images/bg-01.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
+  background-attachment: fixed;
+  opacity: 1;
 }
 
 .bg2 {
@@ -488,13 +508,15 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 2;
+  z-index: -5;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  background-image: url('../images/2ss.png');
-  background-position: 50% 105%;
-  background-size: cover;
+  background-image: url('../images/bg-02.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 0;
 }
 
@@ -504,13 +526,15 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 3;
+  z-index: -5;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  background-image: url('../images/3ss.png');
-  background-position: 50% 105%;
-  background-size: cover;
+  background-image: url('../images/bg-03.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 0;
 }
 
@@ -520,12 +544,13 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 4;
+  z-index: -5;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  background-image: url('../images/4ss.png');
-  background-position: 50% 105%;
-  background-size: cover;
+  background-image: url('../images/bg-04.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
   background-repeat: no-repeat;
   opacity: 0;
 }
@@ -536,29 +561,36 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 4;
+  z-index: -5;
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  background-image: url('../images/5sss.png');
-  background-position: 50% 106%;
-  background-size: cover;
+  background-image: url('../images/bg-05.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 0;
 }
 
 .list-item {
-  padding-bottom: 17px;
+  padding-bottom: 10px;
   padding-left: 0px;
   color: #fff;
   font-size: 1.2vw;
-  line-height: 30px;
-  font-weight: 400;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 .list {
+  position: static;
+  display: block;
   width: 30vw;
+  height: auto;
+  margin-bottom: 0px;
   padding-right: 0px;
   color: #000;
+  text-decoration: none;
 }
 
 .paragraph-large {
@@ -625,7 +657,7 @@ body {
   width: 50vw;
   font-family: Lato, sans-serif;
   color: #000;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
   line-height: 40px;
   font-weight: 400;
   text-align: justify;
@@ -650,7 +682,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #fff;
-  font-size: 1vw;
+  font-size: 1.5vw;
   line-height: 40px;
   font-weight: 300;
   text-align: justify;
@@ -1016,7 +1048,233 @@ body {
   bottom: 5%;
 }
 
+.right-column {
+  position: relative;
+  left: auto;
+  top: 60%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0vh;
+  margin-bottom: 25vh;
+  padding-top: 0vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.wrap {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+}
+
+.loading-2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #101111;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.loading-2.clone {
+  color: #fff;
+}
+
+.count {
+  position: relative;
+  top: 35vh;
+  z-index: 5;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #101111;
+  font-size: 38px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.blk-block {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #101111;
+}
+
+.loading-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 3000vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loading-lottie {
+  position: fixed;
+  left: 48%;
+  top: 42%;
+  right: 0%;
+  bottom: 0%;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.bg-ground {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+  background-image: linear-gradient(180deg, #000, #fff);
+  opacity: 1;
+}
+
+.bg6 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/bg-06.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0;
+}
+
+.bg7 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/bg-07.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.bg8 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/bg-08.png');
+  background-position: 50% 0%;
+  background-size: 100vw 75vh;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.bg9 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -5;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/bg-09.png');
+  background-position: 50% 50%;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
 @media screen and (max-width: 991px) {
+  .content-section {
+    display: none;
+  }
+
   .list-container {
     left: auto;
     top: 0%;
@@ -1060,7 +1318,8 @@ body {
   }
 
   .first-container {
-    opacity: 0;
+    display: none;
+    opacity: 1;
   }
 
   .mobile-message {
@@ -1078,6 +1337,24 @@ body {
     font-size: 4vw;
     line-height: 1.25;
     text-shadow: 0 1px 5px #996b5c;
+  }
+
+  .loading-2 {
+    font-size: 30px;
+  }
+
+  .loading-2.clone {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .count {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .loading-container {
+    display: none;
   }
 }
 
@@ -1115,14 +1392,19 @@ body {
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
+
+  .loading-2 {
+    font-size: 28px;
+  }
+
+  .loading-2.clone {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .content-section {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1200,6 +1482,15 @@ body {
 
   .message-text {
     font-size: 5vw;
+  }
+
+  .loading-2 {
+    font-size: 24px;
+  }
+
+  .loading-2.clone {
+    z-index: 2;
+    font-size: 24px;
   }
 }
 
