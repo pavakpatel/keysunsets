@@ -350,7 +350,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.22;
+  opacity: 0.3;
 }
 
 .div-block {
@@ -576,11 +576,11 @@ body {
 }
 
 .list-item {
-  padding-bottom: 10px;
+  padding-bottom: 17px;
   padding-left: 0px;
   color: #fff;
-  font-size: 1.2vw;
-  line-height: 20px;
+  font-size: 1.5vw;
+  line-height: 25px;
   font-weight: 700;
 }
 
