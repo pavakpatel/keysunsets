@@ -136,7 +136,7 @@ body {
   position: fixed;
   left: auto;
   top: 30%;
-  right: 15%;
+  right: 10%;
   bottom: 0%;
   z-index: 0;
   display: -webkit-box;
@@ -300,7 +300,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 32%;
+  bottom: 38%;
   z-index: -1;
   display: block;
   width: 250vh;
@@ -497,7 +497,7 @@ body {
   height: 100%;
   background-image: url('../images/bg-01.png');
   background-position: 50% 0%;
-  background-size: 100vw 75vh;
+  background-size: 2667px;
   background-attachment: fixed;
   opacity: 1;
   background-clip: border-box;
@@ -576,11 +576,11 @@ body {
 }
 
 .list-item {
-  padding-bottom: 17px;
+  padding-bottom: 12px;
   padding-left: 0px;
   color: #fff;
   font-size: 1.5vw;
-  line-height: 25px;
+  line-height: 30px;
   font-weight: 700;
 }
 
@@ -1265,7 +1265,7 @@ body {
   height: 100%;
   background-image: url('../images/bg-09.png');
   background-position: 50% 50%;
-  background-size: 100vw 100vh;
+  background-size: 2667px;
   background-repeat: no-repeat;
   opacity: 0;
 }
