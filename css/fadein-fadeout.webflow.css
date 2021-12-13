@@ -1291,6 +1291,10 @@ body {
     bottom: 0%;
   }
 
+  .list-wrapper {
+    left: 435px;
+  }
+
   .list-wrapper._1 {
     width: auto;
   }
@@ -1319,10 +1323,32 @@ body {
   }
 
   .dust {
+    display: none;
     background-size: cover;
   }
 
+  .bg1 {
+    display: none;
+  }
+
+  .bg2 {
+    display: none;
+  }
+
+  .bg3 {
+    display: none;
+  }
+
+  .bg4 {
+    display: none;
+  }
+
+  .bg5 {
+    display: none;
+  }
+
   .list-item {
+    color: #000;
     font-size: 2vw;
   }
 
@@ -1340,7 +1366,12 @@ body {
   .paragraph.end {
     left: 11.4vw;
     width: 80vw;
+    color: #000;
     font-size: 2.5vw;
+  }
+
+  .paragraph.end._2 {
+    left: 8%;
   }
 
   .first-container {
@@ -1382,11 +1413,50 @@ body {
   .loading-container {
     display: block;
   }
+
+  .loading-lottie {
+    left: 43.5%;
+  }
+
+  .bg6 {
+    display: none;
+  }
+
+  .bg7 {
+    display: none;
+  }
+
+  .bg8 {
+    display: none;
+  }
+
+  .bg9 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .list-wrapper {
+    left: 323px;
+  }
+
+  .list-item {
+    font-size: 1.5vw;
+    line-height: 2vh;
+  }
+
   .paragraph-large {
     font-size: 18px;
+  }
+
+  .scroll {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 
   .scroll-text {
@@ -1431,6 +1501,7 @@ body {
 @media screen and (max-width: 479px) {
   .content-section {
     display: block;
+    height: 2500vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1459,8 +1530,9 @@ body {
   }
 
   .list-wrapper {
-    left: 45px;
-    top: 66%;
+    left: 43px;
+    top: -2%;
+    text-align: left;
   }
 
   .list-wrapper._7 {
@@ -1481,8 +1553,8 @@ body {
   }
 
   .lottie-animation {
-    left: -42.9vw;
-    bottom: 124%;
+    left: -44.8vw;
+    bottom: 61%;
     width: 300vw;
     margin-left: -215px;
     -webkit-align-self: center;
@@ -1521,6 +1593,7 @@ body {
   }
 
   .list-item {
+    color: #000;
     font-size: 4vw;
     line-height: 15px;
   }
@@ -1530,6 +1603,7 @@ body {
     padding-left: 0px;
     font-size: 10px;
     line-height: 10px;
+    text-align: left;
   }
 
   .paragraph-large {
@@ -1538,7 +1612,7 @@ body {
 
   .paragraph {
     left: 11.6vw;
-    top: 22%;
+    top: 4%;
     width: 80vw;
     font-size: 5vw;
     line-height: 20px;
@@ -1547,8 +1621,13 @@ body {
   .paragraph.end {
     left: 11.3vw;
     width: 80vw;
+    color: #000;
     font-size: 5vw;
     line-height: 20px;
+  }
+
+  .paragraph.end._2 {
+    left: 7%;
   }
 
   .beginning-para-container {
@@ -1560,8 +1639,19 @@ body {
     width: 60px;
   }
 
+  .scroll-text {
+    overflow: visible;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+
   .message-text {
     font-size: 5vw;
+  }
+
+  .fdd-logo-container {
+    display: none;
   }
 
   .fdd-favicon {
@@ -1598,7 +1688,7 @@ body {
   }
 
   .bg9 {
-    display: block;
+    display: none;
     opacity: 1;
   }
 }
