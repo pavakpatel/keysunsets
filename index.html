@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Dec 14 2021 17:28:41 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Dec 14 2021 21:11:33 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61b1d6de25a623546f25f245" data-wf-site="619f2108e4dcb594fac99674">
 <head>
   <meta charset="utf-8">
@@ -45,50 +45,50 @@
       <div class="right-column">
         <div data-w-id="fed23468-0d7a-5223-1fe2-b15a5281f869" data-animation-type="lottie" data-src="documents/data.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="19.458333333333332" data-duration="0" class="lottie-animation"></div>
         <div data-w-id="3e639538-b722-9fe1-66cd-23a9f98195ba" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">UN arms embargo ended</li>
-            <li class="list-item">Select UN-sponsored visa bans lifted</li>
+          <ul role="list" class="ul">
+            <li class="li">UN arms embargo ended</li>
+            <li class="li">Select UN-sponsored visa bans lifted</li>
           </ul>
         </div>
         <div data-w-id="8d26a0d1-374c-2945-8536-8ad238cfd16f" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">U.S. and EU/UK sanctions on select proliferation-linked entities lapses</li>
-            <li class="list-item">Select UN-sponsored visa bans lifted</li>
-            <li class="list-item">UN prohibition on Iranian ballistic missile launches ends</li>
-            <li class="list-item">UN-sponsored asset freezes terminate</li>
+          <ul role="list" class="ul">
+            <li class="li">U.S. and EU/UK sanctions on select proliferation-linked entities lapses</li>
+            <li class="li">Select UN-sponsored visa bans lifted</li>
+            <li class="li">UN prohibition on Iranian ballistic missile launches ends</li>
+            <li class="li">UN-sponsored asset freezes terminate</li>
           </ul>
         </div>
         <div data-w-id="3c8d6b84-0d6f-5570-19f2-fc74542644f0" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">Advanced centrifuge restrictions begin to sunset</li>
+          <ul role="list" class="ul">
+            <li class="li">Advanced centrifuge restrictions begin to sunset</li>
           </ul>
         </div>
         <div data-w-id="3faa1d7b-d3c5-3074-68d7-ae2f666034bc" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">Past UNSC resolutions related to Iran&#x27;s nuclear program terminate</li>
-            <li class="list-item">UN procurement channel for nuclear-related imports ends</li>
-            <li class="list-item">&quot;Snapback&quot; mechanism to restore international sanctions on Iran expires</li>
+          <ul role="list" class="ul">
+            <li class="li">Past UNSC resolutions related to Iran&#x27;s nuclear program terminate</li>
+            <li class="li">UN procurement channel for nuclear-related imports ends</li>
+            <li class="li">&quot;Snapback&quot; mechanism to restore international sanctions on Iran expires</li>
           </ul>
         </div>
         <div data-w-id="7b926873-d7a5-2c25-2f55-8e62e5924a35" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">Restrictions on mass deployment of centrifuges including advanced centrifuges, begin to sunset</li>
+          <ul role="list" class="ul">
+            <li class="li">Restrictions on mass deployment of centrifuges including advanced centrifuges, begin to sunset</li>
           </ul>
         </div>
         <div data-w-id="b8155c4a-ab9a-83e0-47ea-531f8c05fce7" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">Remaining restrictions on advanced centrifuge deployments lifted</li>
+          <ul role="list" class="ul">
+            <li class="li">Remaining restrictions on advanced centrifuge deployments lifted</li>
           </ul>
         </div>
         <div data-w-id="e0ca7c79-a109-a2a7-abdd-5cab10ce429a" class="list-wrapper">
-          <ul role="list" class="list">
-            <li class="list-item">No cap on enrichment purity level</li>
-            <li class="list-item">No cap on enriched uranium stockpile</li>
-            <li class="list-item">Enrichment permitted at Fordow Fuel Enrichment Plan</li>
-            <li class="list-item">New enrichment plants permitted</li>
-            <li class="list-item">Plutonium reprocessing prohibition lifted</li>
-            <li class="list-item">Heavy water reactors permitted</li>
-            <li class="list-item">No cap on heavy water production/domestic stockpiling</li>
+          <ul role="list" class="ul w-list-unstyled">
+            <li class="li">No cap on enrichment purity level</li>
+            <li class="li">No cap on enriched uranium stockpile</li>
+            <li class="li">Enrichment permitted at Fordow Fuel Enrichment Plan</li>
+            <li class="li">New enrichment plants permitted</li>
+            <li class="li">Plutonium reprocessing prohibition lifted</li>
+            <li class="li">Heavy water reactors permitted</li>
+            <li class="li">No cap on heavy water production/domestic stockpiling</li>
           </ul>
         </div>
       </div>
@@ -136,6 +136,17 @@ Webflow.push(function() {
     /*border-radius: 3px 3px 3px 3px;*/
     /*outline: 1px solid #5ec3ef;*/
   }
+ .ul--triangle li::before {
+ content: " ";
+ width: 0; /* Dimensions of the triangle sets in the border properties */
+ height: 0;
+ border-top: 5px solid transparent; /* Set border top & bottom to change the height of the triangle */
+ border-bottom: 5px solid transparent;
+ border-left: 8px solid #12b0eb; /* Triangle width and color */
+ position: absolute; /* Positioning the bullet as absolute. It will relative to the li item */
+ left: 0; /* Stick the bullet to the left side */
+ top: 6px; /* Align the bullet with the first line of li text */
+}
 </style>
 </body>
 </html>

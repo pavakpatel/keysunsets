@@ -575,16 +575,21 @@ body {
   opacity: 0;
 }
 
-.list-item {
+.li {
   padding-bottom: 2vh;
-  padding-left: 0px;
+  padding-left: 36px;
+  background-image: url('../images/Dash.png');
+  background-position: 0px 10px;
+  background-size: 12px;
+  background-repeat: no-repeat;
   color: #fff;
   font-size: 1.5vw;
   line-height: 3vh;
   font-weight: 700;
+  list-style-type: none;
 }
 
-.list {
+.ul {
   position: static;
   display: block;
   width: 30vw;
@@ -1364,12 +1369,12 @@ body {
     display: none;
   }
 
-  .list-item {
+  .li {
     color: #000;
     font-size: 2vw;
   }
 
-  .list {
+  .ul {
     width: 40vw;
     list-style-type: disc;
   }
@@ -1495,7 +1500,7 @@ body {
     left: 323px;
   }
 
-  .list-item {
+  .li {
     font-size: 1.5vw;
     line-height: 2vh;
   }
@@ -1672,16 +1677,20 @@ body {
     display: block;
   }
 
-  .list-item {
+  .li {
+    width: 40ch;
     padding-bottom: 1.5vh;
+    padding-left: 18px;
+    background-position: 0px 8px;
+    background-size: auto 3px;
     color: #fff;
     font-size: 3.5vw;
-    line-height: 18px;
-    text-align: center;
+    line-height: 16px;
+    text-align: left;
     list-style-type: none;
   }
 
-  .list {
+  .ul {
     width: 80vw;
     padding-left: 0px;
     font-size: 10px;
@@ -1694,7 +1703,7 @@ body {
   }
 
   .paragraph {
-    left: 11.6vw;
+    left: 10vw;
     top: 4%;
     width: 80vw;
     font-size: 3vw;
@@ -1772,7 +1781,11 @@ body {
   }
 
   .loading-lottie {
-    left: 34.5%;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0%;
+    right: 0%;
+    opacity: 0;
   }
 
   .bg6 {
