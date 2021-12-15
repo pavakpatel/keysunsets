@@ -135,7 +135,7 @@ body {
 .list-wrapper {
   position: fixed;
   left: auto;
-  top: 30%;
+  top: 25%;
   right: 10%;
   bottom: 0%;
   z-index: 0;
@@ -300,7 +300,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 38%;
+  bottom: 45%;
   z-index: -1;
   display: block;
   width: 250vh;
@@ -579,7 +579,7 @@ body {
   padding-bottom: 2vh;
   padding-left: 36px;
   background-image: url('../images/Dash.png');
-  background-position: 0px 10px;
+  background-position: 0px 11px;
   background-size: 12px;
   background-repeat: no-repeat;
   color: #fff;
@@ -1640,7 +1640,7 @@ body {
 
   .lottie-animation {
     left: -100vw;
-    bottom: 45%;
+    bottom: 68%;
     width: 300vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1681,7 +1681,7 @@ body {
     width: 40ch;
     padding-bottom: 1.5vh;
     padding-left: 18px;
-    background-position: 0px 8px;
+    background-position: 0px 7px;
     background-size: auto 3px;
     color: #fff;
     font-size: 3.5vw;
@@ -1741,6 +1741,10 @@ body {
     padding-left: 0px;
   }
 
+  .scroll-here-box {
+    display: block;
+  }
+
   .mobile-message {
     display: none;
   }
@@ -1763,7 +1767,10 @@ body {
   }
 
   .fdd-favicon {
-    display: none;
+    position: static;
+    display: block;
+    float: none;
+    clear: none;
   }
 
   .loading-2 {
