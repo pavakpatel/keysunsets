@@ -135,7 +135,7 @@ body {
 .list-wrapper {
   position: fixed;
   left: auto;
-  top: 25%;
+  top: 30%;
   right: 10%;
   bottom: 0%;
   z-index: 0;
@@ -300,7 +300,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 45%;
+  bottom: 40%;
   z-index: -1;
   display: block;
   width: 250vh;
