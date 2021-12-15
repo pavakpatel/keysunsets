@@ -1704,7 +1704,7 @@ body {
 
   .paragraph {
     left: 10vw;
-    top: 4%;
+    top: 38%;
     width: 80vw;
     font-size: 3vw;
     line-height: 20px;
@@ -1712,6 +1712,8 @@ body {
 
   .paragraph.end {
     left: 10.2vw;
+    top: 40%;
+    bottom: 40%;
     width: 80vw;
     color: #fff;
     font-size: 3vw;
