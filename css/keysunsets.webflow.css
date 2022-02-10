@@ -1303,7 +1303,9 @@ body {
 
 @media screen and (max-width: 991px) {
   .content-section {
-    display: none;
+    left: auto;
+    right: auto;
+    display: block;
   }
 
   .list-container {
@@ -1314,7 +1316,9 @@ body {
   }
 
   .list-wrapper {
-    left: 435px;
+    left: auto;
+    right: 12%;
+    width: 30vw;
   }
 
   .list-wrapper._1 {
@@ -1337,59 +1341,68 @@ body {
   }
 
   .lottie-animation {
-    left: -78vw;
+    left: auto;
     top: auto;
-    right: 0%;
+    right: auto;
     bottom: 51%;
-    width: 250vw;
+    width: 220vh;
   }
 
   .dust {
-    display: none;
+    display: block;
     background-size: cover;
   }
 
   .bg1 {
-    display: none;
+    display: block;
   }
 
   .bg2 {
-    display: none;
+    display: block;
   }
 
   .bg3 {
-    display: none;
+    display: block;
   }
 
   .bg4 {
-    display: none;
+    display: block;
   }
 
   .bg5 {
-    display: none;
+    display: block;
   }
 
   .li {
-    color: #000;
-    font-size: 2vw;
+    padding-bottom: 1vh;
+    padding-left: 20px;
+    background-position: 0px 8px;
+    background-size: 10px;
+    color: #fff;
+    font-size: 1.85vw;
+    line-height: 18px;
   }
 
   .ul {
-    width: 40vw;
+    width: 41vw;
+    padding-left: 71px;
     list-style-type: disc;
   }
 
   .paragraph {
     left: 11.3vw;
     width: 80vw;
-    font-size: 2.5vw;
+    color: #000;
+    font-size: 2vw;
+    line-height: 30px;
   }
 
   .paragraph.end {
     left: 11.4vw;
     width: 80vw;
-    color: #000;
-    font-size: 2.5vw;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 35px;
   }
 
   .paragraph.end._2 {
@@ -1397,7 +1410,7 @@ body {
   }
 
   .beginning-para-container {
-    display: none;
+    display: block;
   }
 
   .first-container {
@@ -1405,13 +1418,17 @@ body {
     opacity: 1;
   }
 
+  .end-para-container {
+    display: block;
+  }
+
   .scroll-here-box {
-    display: none;
+    display: block;
   }
 
   .mobile-message {
     position: fixed;
-    display: block;
+    display: none;
     width: 100vw;
     height: 100vh;
     background-image: url('../images/bg-09.png');
@@ -1443,6 +1460,21 @@ body {
     text-shadow: 0 1px 5px #996b5c;
   }
 
+  .end-para-span {
+    line-height: 35px;
+  }
+
+  .fdd-logo-container {
+    display: none;
+  }
+
+  .right-column {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .loading-2 {
     font-size: 30px;
   }
@@ -1458,7 +1490,7 @@ body {
   }
 
   .loading-container {
-    display: none;
+    display: block;
   }
 
   .loading-lottie {
@@ -1466,19 +1498,20 @@ body {
   }
 
   .bg6 {
-    display: none;
+    display: block;
   }
 
   .bg7 {
-    display: none;
+    display: block;
   }
 
   .bg8 {
-    display: none;
+    display: block;
   }
 
   .bg9 {
-    display: none;
+    display: block;
+    background-size: 100%;
   }
 
   .bg10 {
