@@ -54,7 +54,7 @@ body {
   background-repeat: repeat, no-repeat;
 }
 
-.sticky-container {
+.content-sticky-container {
   position: -webkit-sticky;
   position: sticky;
   top: 1px;
@@ -232,7 +232,7 @@ body {
   opacity: 0;
 }
 
-.sticky-wrapper {
+.loading-sticky-wrapper {
   position: fixed;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1698,6 +1698,7 @@ body {
 
   .bg1 {
     display: block;
+    opacity: 1;
   }
 
   .bg2 {
@@ -1718,7 +1719,7 @@ body {
 
   .li {
     width: 40ch;
-    padding-bottom: 1.5vh;
+    padding-bottom: 10px;
     padding-left: 18px;
     background-position: 0px 7px;
     background-size: auto 3px;
@@ -1787,11 +1788,16 @@ body {
   }
 
   .mobile-message {
-    display: none;
+    display: block;
+    opacity: 1;
   }
 
   .message-text {
     font-size: 5vw;
+  }
+
+  .end-para-span {
+    line-height: 20px;
   }
 
   .end-para {
@@ -1826,6 +1832,7 @@ body {
   .loading-container {
     display: block;
     height: 2500vh;
+    background-color: #fff;
   }
 
   .loading-lottie {
@@ -1855,7 +1862,10 @@ body {
   }
 
   .bg10 {
-    display: none;
+    display: block;
+    background-image: url('../images/Just-desert.png');
+    background-position: 50% 100%;
+    background-size: 100vw 50vh;
     opacity: 1;
   }
 }
