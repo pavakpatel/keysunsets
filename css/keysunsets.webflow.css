@@ -1278,8 +1278,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/bg-09.png');
-  background-position: 50% 50%;
-  background-size: 2667px;
+  background-position: 50% 0%;
+  background-size: 100% 75vh;
   background-repeat: no-repeat;
   opacity: 0;
 }
@@ -1526,7 +1526,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .content-section {
-    display: none;
+    display: block;
   }
 
   .list-wrapper {
@@ -1534,8 +1534,10 @@ body {
   }
 
   .li {
-    font-size: 1.5vw;
-    line-height: 2vh;
+    background-position: 3% 15%;
+    background-size: 5px;
+    font-size: 1.7vw;
+    line-height: 1.5vh;
   }
 
   .paragraph-large {
@@ -1583,7 +1585,7 @@ body {
   }
 
   .mobile-message {
-    display: block;
+    display: none;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1604,7 +1606,11 @@ body {
   }
 
   .loading-container {
-    display: none;
+    display: block;
+  }
+
+  .bg9 {
+    background-size: 100vw 75vh;
   }
 
   .lottie-animation-3 {
@@ -1825,9 +1831,9 @@ body {
   .loading-lottie {
     position: -webkit-sticky;
     position: sticky;
-    left: 0%;
-    right: 0%;
-    opacity: 0;
+    left: -10%;
+    right: 35%;
+    opacity: 1;
   }
 
   .bg6 {
@@ -1844,6 +1850,7 @@ body {
 
   .bg9 {
     display: block;
+    background-size: 100vw 75vh;
     opacity: 0;
   }
 
