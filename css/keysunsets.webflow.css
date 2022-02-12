@@ -31,7 +31,7 @@ body {
 
 .content-section {
   position: absolute;
-  left: 0%;
+  left: auto;
   top: 0px;
   right: 0%;
   bottom: 0%;
@@ -39,6 +39,7 @@ body {
   overflow: visible;
   width: 100vw;
   height: 4000vh;
+  padding: 0px;
 }
 
 .content-background {
@@ -79,7 +80,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #000;
+  border: 1px none #000;
   background-color: transparent;
   -o-object-fit: fill;
   object-fit: fill;
@@ -303,6 +304,7 @@ body {
   bottom: 40%;
   z-index: -1;
   display: block;
+  overflow: hidden;
   width: 250vh;
   max-width: none;
   -webkit-box-pack: center;
@@ -328,6 +330,7 @@ body {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+  border-radius: 0px;
   font-size: 0vw;
   mix-blend-mode: normal;
   -o-object-fit: fill;
@@ -350,7 +353,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .div-block {
@@ -497,7 +500,8 @@ body {
   height: 100%;
   background-image: url('../images/bg-01.png');
   background-position: 50% 0%;
-  background-size: 2667px;
+  background-size: 100vw 75vh;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 1;
   background-clip: border-box;
@@ -579,7 +583,7 @@ body {
   padding-bottom: 2vh;
   padding-left: 36px;
   background-image: url('../images/Dash.png');
-  background-position: 0px 11px;
+  background-position: 5px 13px;
   background-size: 12px;
   background-repeat: no-repeat;
   color: #fff;
@@ -1071,11 +1075,12 @@ body {
   top: 62%;
   right: 0%;
   bottom: 0%;
+  z-index: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   margin-top: 0vh;
   margin-bottom: 25vh;
@@ -1171,6 +1176,7 @@ body {
 
 .loading-container {
   display: inline-block;
+  overflow: visible;
   width: 100vw;
   height: 3000vh;
   -webkit-box-orient: vertical;
@@ -1351,6 +1357,7 @@ body {
   .dust {
     display: block;
     background-size: cover;
+    opacity: 0.4;
   }
 
   .bg1 {
@@ -1531,6 +1538,10 @@ body {
 
   .list-wrapper {
     left: 323px;
+  }
+
+  .dust {
+    opacity: 0.3;
   }
 
   .li {
@@ -1721,7 +1732,7 @@ body {
     width: 40ch;
     padding-bottom: 10px;
     padding-left: 18px;
-    background-position: 0px 7px;
+    background-position: 2px 7px;
     background-size: auto 3px;
     color: #fff;
     font-size: 3.5vw;
