@@ -298,7 +298,7 @@ body {
 
 .lottie-animation {
   position: absolute;
-  left: auto;
+  left: -1233px;
   top: auto;
   right: auto;
   bottom: 40%;
@@ -353,7 +353,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .div-block {
