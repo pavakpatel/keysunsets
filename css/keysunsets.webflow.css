@@ -497,7 +497,7 @@ body {
   height: 100%;
   background-image: url('../images/bg-01.png');
   background-position: 50% 0%;
-  background-size: 2667px;
+  background-size: 100vw 75vh;
   background-attachment: fixed;
   opacity: 1;
   background-clip: border-box;
@@ -800,7 +800,7 @@ body {
 }
 
 .scroll-text {
-  overflow: hidden;
+  overflow: visible;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -1279,7 +1279,7 @@ body {
   height: 100%;
   background-image: url('../images/bg-09.png');
   background-position: 50% 0%;
-  background-size: 100% 75vh;
+  background-size: 2667px 75vh;
   background-repeat: no-repeat;
   opacity: 0;
 }
@@ -1299,6 +1299,14 @@ body {
   background-size: 2667px;
   background-repeat: no-repeat;
   opacity: 0;
+}
+
+.scroll-down-lottie {
+  position: relative;
+  left: -19px;
+  bottom: -19px;
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1522,6 +1530,10 @@ body {
     background-size: contain;
     opacity: 1;
   }
+
+  .scroll-down-lottie {
+    left: -27px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1698,7 +1710,8 @@ body {
 
   .bg1 {
     display: block;
-    opacity: 0;
+    border-radius: 0px;
+    opacity: 1;
   }
 
   .bg2 {
@@ -1866,6 +1879,10 @@ body {
     background-position: 50% 100%;
     background-size: 100vw 50vh;
     opacity: 1;
+  }
+
+  .scroll-down-lottie {
+    left: -19px;
   }
 }
 
