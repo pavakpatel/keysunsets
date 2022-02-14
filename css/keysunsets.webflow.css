@@ -498,7 +498,7 @@ body {
   margin-bottom: auto;
   padding-bottom: 0px;
   background-image: url('../images/1.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -518,7 +518,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/2.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   opacity: 0;
 }
@@ -534,7 +534,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/3.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -552,7 +552,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/4.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
@@ -569,7 +569,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/5.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1227,7 +1227,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/6.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1245,7 +1245,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/7.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
@@ -1262,7 +1262,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/8.svg');
-  background-position: 50% -20vh;
+  background-position: 50% -25vh;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0;
@@ -1279,7 +1279,7 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/9.svg');
-  background-position: 0px -15vh;
+  background-position: 50% -25vh;
   background-size: cover;
   opacity: 0;
 }
@@ -1741,7 +1741,7 @@ body {
 
   .lottie-animation {
     left: -100vw;
-    bottom: 68%;
+    bottom: 61%;
     width: 300vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1761,23 +1761,28 @@ body {
   .bg1 {
     display: block;
     border-radius: 0px;
+    background-position: 50% -15vh;
     opacity: 1;
   }
 
   .bg2 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg3 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg4 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg5 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .li {
@@ -1907,19 +1912,22 @@ body {
 
   .bg6 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg7 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg8 {
     display: block;
+    background-position: 50% -15vh;
   }
 
   .bg9 {
     display: block;
-    background-position: 0px -20vh;
+    background-position: 0px -15vh;
     background-size: cover;
     opacity: 0;
   }
