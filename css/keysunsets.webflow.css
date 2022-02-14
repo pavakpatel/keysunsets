@@ -1315,7 +1315,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: inline-block;
+  display: none;
   overflow: visible;
   width: 300vw;
   height: 40vh;
@@ -1335,7 +1335,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: inline-block;
+  display: none;
   overflow: visible;
   width: 300vw;
   height: 40vh;
