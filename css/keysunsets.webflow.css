@@ -350,7 +350,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .div-block {
@@ -1309,6 +1309,46 @@ body {
   height: 100px;
 }
 
+.cloud1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  overflow: visible;
+  width: 300vw;
+  height: 40vh;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  background-image: url('../images/Long_Fluffy_Cloud_Transparent_PNG_Clip_Art.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  overflow: visible;
+  width: 300vw;
+  height: 40vh;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  background-image: url('../images/cloud1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 991px) {
   .content-section {
     left: auto;
@@ -1533,6 +1573,16 @@ body {
 
   .scroll-down-lottie {
     left: -27px;
+  }
+
+  .cloud1 {
+    display: block;
+    background-size: cover;
+  }
+
+  .cloud2 {
+    display: block;
+    background-size: cover;
   }
 }
 
@@ -1869,7 +1919,8 @@ body {
 
   .bg9 {
     display: block;
-    background-size: 100vw 75vh;
+    background-position: 0px -20vh;
+    background-size: cover;
     opacity: 0;
   }
 
@@ -1883,6 +1934,16 @@ body {
 
   .scroll-down-lottie {
     left: -19px;
+  }
+
+  .cloud1 {
+    display: none;
+    opacity: 0;
+  }
+
+  .cloud2 {
+    display: none;
+    opacity: 0;
   }
 }
 
