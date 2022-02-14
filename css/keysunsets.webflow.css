@@ -1315,7 +1315,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: none;
+  display: block;
   overflow: visible;
   width: 300vw;
   height: 40vh;
@@ -1323,10 +1323,11 @@ body {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  background-image: url('../images/Long_Fluffy_Cloud_Transparent_PNG_Clip_Art.png');
+  background-image: url('../images/cloud4.png');
+  background-position: 0% 0%;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .cloud2 {
@@ -1335,7 +1336,8 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: none;
+  z-index: -2;
+  display: block;
   overflow: visible;
   width: 300vw;
   height: 40vh;
@@ -1346,7 +1348,28 @@ body {
   background-image: url('../images/cloud1.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.1;
+}
+
+.cloud3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: -2;
+  display: block;
+  overflow: visible;
+  width: 300vw;
+  height: 40vh;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  background-image: url('../images/cloud3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.1;
 }
 
 @media screen and (max-width: 991px) {
@@ -1581,6 +1604,11 @@ body {
   }
 
   .cloud2 {
+    display: block;
+    background-size: cover;
+  }
+
+  .cloud3 {
     display: block;
     background-size: cover;
   }
@@ -1950,6 +1978,11 @@ body {
   }
 
   .cloud2 {
+    display: none;
+    opacity: 0;
+  }
+
+  .cloud3 {
     display: none;
     opacity: 0;
   }
