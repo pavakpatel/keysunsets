@@ -350,7 +350,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .div-block {
@@ -1369,7 +1369,7 @@ body {
   background-image: url('../images/cloud3.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.1;
+  opacity: 0.08;
 }
 
 @media screen and (max-width: 991px) {
