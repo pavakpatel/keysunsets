@@ -1327,7 +1327,7 @@ body {
   background-position: 0% 0%;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .cloud2 {
@@ -1420,7 +1420,7 @@ body {
   }
 
   .dust {
-    display: block;
+    display: none;
     background-size: cover;
   }
 
@@ -1582,7 +1582,7 @@ body {
 
   .bg9 {
     display: block;
-    background-size: 100% 75vh;
+    background-size: cover;
   }
 
   .bg10 {
@@ -1599,17 +1599,17 @@ body {
   }
 
   .cloud1 {
-    display: block;
+    display: none;
     background-size: cover;
   }
 
   .cloud2 {
-    display: block;
+    display: none;
     background-size: cover;
   }
 
   .cloud3 {
-    display: block;
+    display: none;
     background-size: cover;
   }
 }
