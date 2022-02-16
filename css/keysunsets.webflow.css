@@ -1315,6 +1315,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
+  z-index: -2;
   display: block;
   overflow: visible;
   width: 300vw;
@@ -1323,11 +1324,11 @@ body {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  background-image: url('../images/cloud4.png');
+  background-image: url('../images/cloud1.png');
   background-position: 0% 0%;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .cloud2 {
@@ -1345,7 +1346,7 @@ body {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  background-image: url('../images/cloud1.png');
+  background-image: url('../images/cloud2.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.1;
@@ -1369,7 +1370,49 @@ body {
   background-image: url('../images/cloud3.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.08;
+  opacity: 0.2;
+}
+
+.cloud4 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 0;
+  display: block;
+  overflow: visible;
+  width: 300vw;
+  height: 40vh;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  background-image: url('../images/cloud6.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+}
+
+.cloud5 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 0;
+  display: block;
+  overflow: visible;
+  width: 300vw;
+  height: 40vh;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  background-image: url('../images/cloud5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.2;
 }
 
 @media screen and (max-width: 991px) {
@@ -1612,6 +1655,16 @@ body {
     display: none;
     background-size: cover;
   }
+
+  .cloud4 {
+    display: none;
+    background-size: cover;
+  }
+
+  .cloud5 {
+    display: none;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1769,7 +1822,7 @@ body {
 
   .lottie-animation {
     left: -100vw;
-    bottom: 61%;
+    bottom: 60%;
     width: 300vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1983,6 +2036,16 @@ body {
   }
 
   .cloud3 {
+    display: none;
+    opacity: 0;
+  }
+
+  .cloud4 {
+    display: none;
+    opacity: 0;
+  }
+
+  .cloud5 {
     display: none;
     opacity: 0;
   }
