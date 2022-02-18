@@ -752,7 +752,7 @@ body {
 }
 
 .cloud2.opacity-animation {
-  opacity: 0.36;
+  opacity: 0.15;
 }
 
 .cloud3 {
@@ -794,7 +794,7 @@ body {
   background-image: url('../images/cloud6.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .cloud5 {
@@ -815,7 +815,7 @@ body {
   background-image: url('../images/cloud5.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.4;
+  opacity: 0.28;
 }
 
 .cloud-container {
