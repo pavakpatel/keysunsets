@@ -350,7 +350,7 @@ body {
   order: -1;
   background-image: url('../images/dust2.png');
   background-size: 33.33%;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .div-block {
@@ -1331,6 +1331,10 @@ body {
   opacity: 0.18;
 }
 
+.cloud1.opacity-animation {
+  opacity: 0.36;
+}
+
 .cloud2 {
   position: absolute;
   left: 0%;
@@ -1352,6 +1356,10 @@ body {
   opacity: 0.18;
 }
 
+.cloud2.opacity-animation {
+  opacity: 0.36;
+}
+
 .cloud3 {
   position: absolute;
   left: 0%;
@@ -1370,7 +1378,7 @@ body {
   background-image: url('../images/cloud3.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.28;
+  opacity: 0.56;
 }
 
 .cloud4 {
@@ -1391,7 +1399,7 @@ body {
   background-image: url('../images/cloud6.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.22;
+  opacity: 0.44;
 }
 
 .cloud5 {
@@ -1412,7 +1420,7 @@ body {
   background-image: url('../images/cloud5.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.28;
+  opacity: 0.56;
 }
 
 @media screen and (max-width: 991px) {
