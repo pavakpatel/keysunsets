@@ -15,7 +15,7 @@ body {
   display: inline-block;
   overflow: visible;
   width: 100vw;
-  height: 3000vh;
+  height: 2500vh;
 }
 
 .content-sticky-container {
@@ -599,7 +599,7 @@ body {
   display: inline-block;
   overflow: visible;
   width: 100vw;
-  height: 3000vh;
+  height: 1000vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -794,7 +794,7 @@ body {
   background-image: url('../images/cloud6.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.44;
+  opacity: 0.3;
 }
 
 .cloud5 {
@@ -815,7 +815,7 @@ body {
   background-image: url('../images/cloud5.png');
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.56;
+  opacity: 0.4;
 }
 
 .cloud-container {
