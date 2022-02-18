@@ -1753,7 +1753,7 @@ body {
   }
 
   .bg9 {
-    background-size: 100vw 75vh;
+    background-size: cover;
   }
 
   .lottie-animation-3 {
