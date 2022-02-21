@@ -999,14 +999,37 @@ body {
     left: 323px;
   }
 
+  .lottie-animation {
+    bottom: 57%;
+    width: 180vh;
+  }
+
   .li {
-    background-position: 3% 15%;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    background-position: 1% 15%;
     background-size: 5px;
-    font-size: 1.7vw;
+    font-size: 0.55rem;
     line-height: 1.5vh;
   }
 
+  .ul {
+    width: 30vw;
+    margin-left: 1px;
+    padding-left: 0px;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .paragraph.end {
+    font-size: 1rem;
+  }
+
   .scroll {
+    padding-bottom: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1044,6 +1067,10 @@ body {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+  }
+
+  .end-para-span {
+    font-size: 1rem;
   }
 
   .loading-container {
@@ -1127,13 +1154,13 @@ body {
   }
 
   .li {
-    width: 40ch;
+    width: auto;
     padding-bottom: 1.5vh;
     padding-left: 18px;
     background-position: 0px 7px;
     background-size: auto 3px;
     color: #fff;
-    font-size: 3.5vw;
+    font-size: 0.87rem;
     line-height: 16px;
     text-align: left;
     list-style-type: none;
@@ -1151,7 +1178,7 @@ body {
     left: 10vw;
     top: 38%;
     width: 80vw;
-    font-size: 3vw;
+    font-size: 0.87rem;
     line-height: 20px;
   }
 
@@ -1161,7 +1188,7 @@ body {
     bottom: 40%;
     width: 80vw;
     color: #fff;
-    font-size: 3vw;
+    font-size: 0.87rem;
     line-height: 20px;
     font-weight: 400;
     text-align: center;
