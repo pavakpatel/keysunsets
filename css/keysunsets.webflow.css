@@ -752,6 +752,7 @@ body {
 }
 
 .cloud2.opacity-animation {
+  display: none;
   opacity: 0.15;
 }
 
@@ -804,7 +805,7 @@ body {
   right: 0%;
   bottom: auto;
   z-index: 0;
-  display: block;
+  display: none;
   overflow: visible;
   width: 300vw;
   height: 40vh;
@@ -819,6 +820,7 @@ body {
 }
 
 .cloud-container {
+  display: none;
   overflow: visible;
 }
 
