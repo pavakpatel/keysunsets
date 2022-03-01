@@ -52,7 +52,7 @@ body {
 .list-wrapper {
   position: fixed;
   left: auto;
-  top: 30%;
+  top: 25%;
   right: 10%;
   bottom: 0%;
   z-index: 0;
