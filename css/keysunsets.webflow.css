@@ -871,6 +871,7 @@ body {
 }
 
 .heading {
+  font-family: urw-din, sans-serif;
   color: #010101;
   font-size: 50px;
   line-height: 50px;
@@ -983,6 +984,48 @@ body {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+.header-scroll-on {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  text-align: left;
+}
+
+.text-block {
+  padding: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  font-family: urw-din, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -1532,6 +1575,10 @@ body {
 
   .header-title {
     display: block;
+  }
+
+  .header-scroll-on {
+    display: none;
   }
 }
 
