@@ -935,9 +935,10 @@ body {
   height: 50px;
   margin-bottom: 10px;
   border: 1px solid #000;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-  background-position: 0px 0px;
+  background-image: url('../images/Asset-1.svg');
+  background-position: 50% 50%;
   background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .author-headshot.andrea-stricker {
@@ -996,13 +997,16 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: auto;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
@@ -1022,10 +1026,57 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
+  opacity: 0.7;
   font-family: urw-din, sans-serif;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
+}
+
+.div-block-4 {
+  position: relative;
+  bottom: 110px;
+  width: 100%;
+  height: 200px;
+  background-image: url('../images/Asset-1.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-5 {
+  position: relative;
+  display: inline-block;
+}
+
+.div-block-6 {
+  position: relative;
+  z-index: 500;
+  background-color: #fff;
+}
+
+.fdd-logo {
+  position: absolute;
+  left: 15%;
+  top: 0%;
+  right: auto;
+  bottom: -34px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: url('../images/Visuals_Logo_Temporary_v01.svg');
+  background-position: 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-block-5-copy {
+  position: relative;
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
@@ -1222,6 +1273,11 @@ body {
   .header-title {
     display: block;
   }
+
+  .fdd-logo {
+    left: 5%;
+    bottom: -5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1336,6 +1392,14 @@ body {
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
+
+  .div-block-5 {
+    display: none;
+  }
+
+  .div-block-5-copy {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1359,7 +1423,7 @@ body {
 
   .list-wrapper {
     left: 10vw;
-    top: -3%;
+    top: 1%;
     right: 0%;
     bottom: auto;
     width: 80vw;
@@ -1369,7 +1433,7 @@ body {
 
   .lottie-animation {
     left: -100vw;
-    bottom: 70%;
+    bottom: 121%;
     width: 300vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1385,28 +1449,28 @@ body {
   .bg1 {
     display: block;
     border-radius: 0px;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
     opacity: 1;
   }
 
   .bg2 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg3 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg4 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg5 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .li {
@@ -1515,22 +1579,22 @@ body {
 
   .bg6 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg7 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg8 {
     display: block;
-    background-position: 50% -15vh;
+    background-position: 50% -10vh;
   }
 
   .bg9 {
     display: block;
-    background-position: 0px -15vh;
+    background-position: 0px -10vh;
     background-size: cover;
     opacity: 0;
   }
@@ -1564,9 +1628,13 @@ body {
     opacity: 0;
   }
 
+  .author-name-container {
+    margin: 8px;
+  }
+
   .heading {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .header {
@@ -1578,6 +1646,52 @@ body {
   }
 
   .header-scroll-on {
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
+  .text-block {
+    display: none;
+  }
+
+  .div-block-5 {
+    display: block;
+  }
+
+  .fdd-logo {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    width: 170px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .div-block-5-copy {
     display: none;
   }
 }
