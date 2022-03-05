@@ -877,10 +877,14 @@ body {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/Visuals_Logo_Temporary_v01.svg');
+  background-image: url('../images/Visuals_Logo_Temporary_v01-2.svg');
   background-position: 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.fdd-logo._1 {
+  background-image: url('../images/Visuals_Logo_Temporary_v01-1.svg');
 }
 
 @media screen and (max-width: 991px) {
