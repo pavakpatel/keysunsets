@@ -657,6 +657,7 @@ body {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  color: rgba(51, 51, 51, 0.78);
   font-size: 1.2em;
   line-height: 25px;
   font-weight: 900;
@@ -696,11 +697,12 @@ body {
 
 .heading {
   font-family: urw-din, sans-serif;
-  color: #010101;
+  color: rgba(1, 1, 1, 0.88);
   font-size: 50px;
   line-height: 50px;
   font-weight: 600;
   text-align: center;
+  letter-spacing: -2.75px;
 }
 
 .author-block {
