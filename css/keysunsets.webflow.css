@@ -1149,13 +1149,28 @@ body {
     justify-content: flex-end;
   }
 
+  .header-scroll-on {
+    height: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .text-block {
     left: 73px;
     top: 4px;
+    display: none;
   }
 
   .page-wrapper {
     display: block;
+  }
+
+  .fdd-logo {
+    left: auto;
+    width: 150px;
+    margin-right: 0px;
   }
 }
 
