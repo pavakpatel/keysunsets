@@ -854,7 +854,7 @@ body {
 
 .rocket-image {
   position: relative;
-  bottom: 24px;
+  bottom: 18px;
   width: 100%;
   height: 200px;
   background-image: url('../images/Asset-1.svg');
@@ -1139,7 +1139,15 @@ body {
   }
 
   .heading {
+    margin-bottom: 20px;
     font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -1px;
+  }
+
+  .author-block {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .header {
@@ -1147,6 +1155,10 @@ body {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+  }
+
+  .header-title {
+    padding-bottom: 0px;
   }
 
   .header-scroll-on {
@@ -1161,6 +1173,14 @@ body {
     left: 73px;
     top: 4px;
     display: none;
+  }
+
+  .rocket-image {
+    bottom: 16px;
+    width: 95%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .page-wrapper {
@@ -1205,7 +1225,7 @@ body {
 
   .lottie-animation {
     left: -100vw;
-    bottom: 122%;
+    bottom: 90%;
     width: 300vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1383,19 +1403,30 @@ body {
 
   .author-name-container {
     margin-right: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     margin-left: 8px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .heading {
-    margin-top: 0px;
-    font-size: 20px;
-    line-height: 30px;
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 28px;
     font-weight: 700;
+    letter-spacing: -1px;
   }
 
   .author-block {
-    padding-right: 0px;
+    padding-right: 2px;
+    padding-left: 2px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1415,11 +1446,33 @@ body {
   }
 
   .author-name-2 {
-    margin-right: 5px;
+    margin-right: 0px;
+    padding-left: 8px;
+    font-size: 13px;
+  }
+
+  .author-headshot.andrea-stricker {
+    width: 40px;
+    height: 40px;
+  }
+
+  .author-headshot.behnam-taleblu {
+    width: 40px;
+    height: 40px;
+  }
+
+  .author-designation {
+    padding-left: 8px;
+    font-size: 13px;
+    line-height: 18px;
   }
 
   .header-title {
     display: block;
+  }
+
+  .author-text {
+    padding-left: 3px;
   }
 
   .header-scroll-on {
@@ -1435,7 +1488,10 @@ body {
   }
 
   .rocket-image {
+    position: relative;
+    bottom: -20px;
     width: 80%;
+    height: 150px;
   }
 
   .page-wrapper {
