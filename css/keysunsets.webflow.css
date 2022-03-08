@@ -854,7 +854,7 @@ body {
 
 .rocket-image {
   position: relative;
-  bottom: 18px;
+  bottom: 20px;
   width: 100%;
   height: 200px;
   background-image: url('../images/Asset-1.svg');
@@ -889,6 +889,64 @@ body {
 
 .fdd-logo._1 {
   background-image: url('../images/Visuals_Logo_Temporary_v01-1.svg');
+}
+
+.fdd-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-right: 81px;
+  padding-right: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #467aa9;
+  border-radius: 22px;
+  color: #5484af;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fdd-button.square {
+  position: relative;
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 3px;
+  border-radius: 0px;
+  color: #467aa9;
+}
+
+.fdd-button.square.title {
+  position: absolute;
+  left: auto;
+  top: -108%;
+  right: 13%;
+  bottom: auto;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.button-text {
+  padding-top: 2px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: urw-din, sans-serif;
+  color: #467aa9;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.button-text._2 {
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {
@@ -1079,6 +1137,15 @@ body {
   .fdd-logo {
     left: 5%;
     bottom: -5px;
+  }
+
+  .fdd-button {
+    margin-right: 0px;
+    margin-bottom: 11px;
+  }
+
+  .fdd-button.square {
+    margin-bottom: 0px;
   }
 }
 
@@ -1526,6 +1593,17 @@ body {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+  }
+
+  .fdd-button.square {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 
