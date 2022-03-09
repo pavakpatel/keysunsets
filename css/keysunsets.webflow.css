@@ -1509,7 +1509,7 @@ body {
     left: -102%;
     top: auto;
     right: 0%;
-    bottom: 170%;
+    bottom: 107%;
     width: 300vw;
     margin-right: auto;
     margin-left: auto;
@@ -1826,15 +1826,11 @@ body {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border-color: #fff;
+    border-color: #00558c;
   }
 
   .fdd-button.square.title {
     display: none;
-  }
-
-  .button-text {
-    color: #fff;
   }
 
   .fdd-button-white.square {
@@ -1877,7 +1873,7 @@ body {
 
   .scroll-down {
     display: block;
-    margin-top: 19px;
+    margin-top: 35px;
     padding-top: 0px;
     font-family: urw-din, sans-serif;
     font-size: 1em;
