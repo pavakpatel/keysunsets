@@ -113,7 +113,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 18%;
+  bottom: 70%;
   z-index: -1;
   display: block;
   width: 250vh;
@@ -870,7 +870,7 @@ body {
 
 .fdd-logo {
   position: absolute;
-  left: 15%;
+  left: 9%;
   top: 0%;
   right: auto;
   bottom: -34px;
@@ -949,6 +949,101 @@ body {
   color: #fff;
 }
 
+.fdd-button-white {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-right: 81px;
+  padding-right: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #467aa9;
+  border-radius: 22px;
+  color: #5484af;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fdd-button-white.square {
+  position: absolute;
+  left: auto;
+  top: -112%;
+  right: 6.5%;
+  bottom: auto;
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  border-width: 3px;
+  border-color: #fff;
+  border-radius: 0px;
+  opacity: 0.65;
+  color: #467aa9;
+}
+
+.fdd-button-white.square.title {
+  position: absolute;
+  left: auto;
+  top: -108%;
+  right: 13%;
+  bottom: auto;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.download-logo {
+  display: none;
+  height: auto;
+  margin-right: 81px;
+  padding-right: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #467aa9;
+  border-radius: 22px;
+  color: #5484af;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.download-logo.square {
+  position: absolute;
+  left: auto;
+  top: -112%;
+  right: 14.5%;
+  bottom: auto;
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 3px;
+  border-color: #fff;
+  border-radius: 0px;
+  color: #467aa9;
+}
+
+.download-logo.square.title {
+  position: absolute;
+  left: auto;
+  top: -108%;
+  right: 13%;
+  bottom: auto;
+  border-color: #fff;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 991px) {
   .content-section {
     left: auto;
@@ -968,8 +1063,9 @@ body {
     left: auto;
     top: auto;
     right: auto;
-    bottom: 79%;
+    bottom: 162%;
     width: 220vh;
+    margin-right: 10px;
   }
 
   .dust {
@@ -1145,7 +1241,71 @@ body {
   }
 
   .fdd-button.square {
+    bottom: -146px;
+    width: 220px;
     margin-bottom: 0px;
+  }
+
+  .fdd-button.square.title {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+  }
+
+  .fdd-button-white {
+    margin-right: 0px;
+    margin-bottom: 11px;
+  }
+
+  .fdd-button-white.square {
+    bottom: -146px;
+    display: none;
+    width: 220px;
+    margin-bottom: 0px;
+  }
+
+  .fdd-button-white.square.title {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+  }
+
+  .download-logo {
+    position: absolute;
+    left: auto;
+    top: 21%;
+    right: 15%;
+    bottom: auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 0px;
+    margin-bottom: 11px;
+    border-style: none;
+    border-radius: 0px;
+    background-image: url('../images/download.svg');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .download-logo.square {
+    bottom: -146px;
+    display: none;
+    width: 220px;
+    margin-bottom: 0px;
+  }
+
+  .download-logo.square.title {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: none;
   }
 }
 
@@ -1160,8 +1320,10 @@ body {
   }
 
   .lottie-animation {
-    bottom: 94%;
+    left: auto;
+    bottom: 90%;
     width: 180vh;
+    margin-right: 24px;
   }
 
   .li {
@@ -1259,6 +1421,35 @@ body {
     width: 150px;
     margin-right: 0px;
   }
+
+  .fdd-button.square {
+    margin-top: 0px;
+  }
+
+  .fdd-button-white.square {
+    display: none;
+  }
+
+  .download-logo {
+    position: absolute;
+    left: auto;
+    top: 25%;
+    right: 5%;
+    bottom: auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-style: none;
+    border-radius: 0px;
+    background-image: url('../images/download.svg');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .download-logo.square {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1291,9 +1482,13 @@ body {
   }
 
   .lottie-animation {
-    left: -100vw;
-    bottom: 90%;
+    left: -102%;
+    top: auto;
+    right: 0%;
+    bottom: 94%;
     width: 300vw;
+    margin-right: auto;
+    margin-left: auto;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -1604,6 +1799,48 @@ body {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+
+  .fdd-button.square.title {
+    display: none;
+  }
+
+  .fdd-button-white.square {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .fdd-button-white.square.title {
+    display: none;
+  }
+
+  .download-logo {
+    top: 41%;
+    right: 5%;
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .download-logo.square {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .download-logo.square.title {
+    display: none;
   }
 }
 
