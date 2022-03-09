@@ -113,7 +113,7 @@ body {
   left: auto;
   top: auto;
   right: auto;
-  bottom: 70%;
+  bottom: 31%;
   z-index: -1;
   display: block;
   width: 250vh;
@@ -915,6 +915,7 @@ body {
 
 .fdd-button.square {
   position: relative;
+  display: none;
   margin-top: 45px;
   margin-right: auto;
   margin-left: auto;
@@ -1078,9 +1079,9 @@ body {
     left: auto;
     top: auto;
     right: auto;
-    bottom: 162%;
+    bottom: 54%;
     width: 220vh;
-    margin-right: 10px;
+    margin-right: 12px;
   }
 
   .dust {
@@ -1349,7 +1350,7 @@ body {
 
   .lottie-animation {
     left: auto;
-    bottom: 90%;
+    bottom: 70%;
     width: 180vh;
     margin-right: 24px;
   }
@@ -1521,10 +1522,10 @@ body {
   }
 
   .lottie-animation {
-    left: -102%;
+    left: auto;
     top: auto;
-    right: 0%;
-    bottom: 52%;
+    right: auto;
+    bottom: 72%;
     width: 300vw;
     margin-right: auto;
     margin-left: auto;
