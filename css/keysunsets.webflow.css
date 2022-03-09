@@ -1632,6 +1632,7 @@ body {
 
   .scroll-down-lottie {
     left: -19px;
+    bottom: 224px;
   }
 
   .cloud1 {
@@ -1791,6 +1792,7 @@ body {
   }
 
   .fdd-button.square {
+    bottom: -211px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
