@@ -978,7 +978,7 @@ body {
   position: absolute;
   left: auto;
   top: -84%;
-  right: 8%;
+  right: 12.5%;
   bottom: auto;
   margin-top: 45px;
   margin-right: auto;
@@ -1451,7 +1451,18 @@ body {
   }
 
   .fdd-button.square {
+    width: 150px;
     margin-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .button-text {
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 35px;
   }
 
   .fdd-button-white.square {
