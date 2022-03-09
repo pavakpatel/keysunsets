@@ -946,7 +946,10 @@ body {
 }
 
 .button-text._2 {
+  padding: 5px 25px;
   color: #fff;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 .fdd-button-white {
@@ -974,8 +977,8 @@ body {
 .fdd-button-white.square {
   position: absolute;
   left: auto;
-  top: -112%;
-  right: 6.5%;
+  top: -84%;
+  right: 8%;
   bottom: auto;
   margin-top: 45px;
   margin-right: auto;
@@ -983,7 +986,7 @@ body {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  border-width: 3px;
+  border-width: 1px;
   border-color: #fff;
   border-radius: 0px;
   opacity: 0.65;
@@ -1303,6 +1306,7 @@ body {
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
+    opacity: 0.8;
   }
 
   .download-logo.square {
@@ -1509,7 +1513,7 @@ body {
     left: -102%;
     top: auto;
     right: 0%;
-    bottom: 107%;
+    bottom: 52%;
     width: 300vw;
     margin-right: auto;
     margin-left: auto;
@@ -1527,28 +1531,28 @@ body {
   .bg1 {
     display: block;
     border-radius: 0px;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
     opacity: 1;
   }
 
   .bg2 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg3 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg4 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg5 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .li {
@@ -1634,22 +1638,22 @@ body {
 
   .bg6 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg7 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg8 {
     display: block;
-    background-position: 50% -10vh;
+    background-position: 50% 0%;
   }
 
   .bg9 {
     display: block;
-    background-position: 0px -10vh;
+    background-position: 50% 0%;
     background-size: cover;
     opacity: 0;
   }
@@ -1731,6 +1735,13 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 
   .author-name-2 {
@@ -1818,6 +1829,7 @@ body {
 
   .fdd-button.square {
     bottom: -154px;
+    width: 150px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1831,6 +1843,12 @@ body {
 
   .fdd-button.square.title {
     display: none;
+  }
+
+  .button-text {
+    padding: 0px 20px;
+    font-size: 10px;
+    line-height: 25px;
   }
 
   .fdd-button-white.square {
@@ -1872,7 +1890,7 @@ body {
   }
 
   .scroll-down {
-    display: block;
+    display: none;
     margin-top: 35px;
     padding-top: 0px;
     font-family: urw-din, sans-serif;
