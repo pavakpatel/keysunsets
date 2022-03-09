@@ -1044,6 +1044,17 @@ body {
   background-color: transparent;
 }
 
+.scroll-down {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: rgba(51, 51, 51, 0.78);
+  font-size: 1.2em;
+  line-height: 25px;
+  font-weight: 900;
+}
+
 @media screen and (max-width: 991px) {
   .content-section {
     left: auto;
@@ -1307,6 +1318,21 @@ body {
     bottom: 0%;
     display: none;
   }
+
+  .scroll-down {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1485,7 +1511,7 @@ body {
     left: -102%;
     top: auto;
     right: 0%;
-    bottom: 148%;
+    bottom: 200%;
     width: 300vw;
     margin-right: auto;
     margin-left: auto;
@@ -1661,6 +1687,7 @@ body {
   }
 
   .date {
+    font-family: Lato, sans-serif;
     font-size: 0.8em;
   }
 
@@ -1792,6 +1819,7 @@ body {
   }
 
   .fdd-button.square {
+    bottom: -51px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1842,6 +1870,14 @@ body {
 
   .download-logo.square.title {
     display: none;
+  }
+
+  .scroll-down {
+    margin-top: 19px;
+    padding-top: 0px;
+    font-family: urw-din, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
   }
 }
 
