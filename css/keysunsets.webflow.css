@@ -1045,6 +1045,7 @@ body {
 }
 
 .scroll-down {
+  display: none;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -1320,10 +1321,7 @@ body {
   }
 
   .scroll-down {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1819,7 +1817,7 @@ body {
   }
 
   .fdd-button.square {
-    bottom: -51px;
+    bottom: -154px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1828,10 +1826,15 @@ body {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    border-color: #fff;
   }
 
   .fdd-button.square.title {
     display: none;
+  }
+
+  .button-text {
+    color: #fff;
   }
 
   .fdd-button-white.square {
@@ -1873,6 +1876,7 @@ body {
   }
 
   .scroll-down {
+    display: block;
     margin-top: 19px;
     padding-top: 0px;
     font-family: urw-din, sans-serif;
