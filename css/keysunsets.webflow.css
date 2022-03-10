@@ -379,6 +379,7 @@ body {
 
 .the-end {
   position: absolute;
+  bottom: -12px;
   font-weight: 300;
   text-align: left;
   text-transform: uppercase;
