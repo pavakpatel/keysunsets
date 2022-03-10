@@ -524,7 +524,7 @@ body {
 .scroll-down-lottie {
   position: relative;
   left: -19px;
-  bottom: -11px;
+  bottom: 10px;
   z-index: 5;
   width: 100px;
   height: 100px;
